@@ -1,0 +1,9 @@
+<div>
+  <div>
+    <button disabled='{{isDisabled}}'>Non-string value</button><br>
+    <button [disabled]='isDisabled'>Non-string value</button>
+  </div>
+  <p>Hello {{iamchild}} </p>
+  <p>Child--ClickMe--Parent--Event raised</p>
+  <p><button (click)="OnClickChildToParent.emit()">Click Me</button></p>
+</div>
